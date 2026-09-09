@@ -11,6 +11,6 @@
     "href": "index.html",
     "title": "Jeffrey Ketland Notes",
     "section": "",
-    "text": "This is a Quarto website.\n\n1 + 1\n\n[1] 2"
+    "text": "This is a Quarto website.\n\\[\\int x^2 dx = \\frac{1}{3}x^3\\]\n\n1 + 1\n\n[1] 2"
   }
 ]
