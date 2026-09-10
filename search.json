@@ -2,9 +2,42 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Ketland_Notes",
+    "title": "Ketland Notes",
     "section": "",
-    "text": "This is a Quarto website\nOpen Calculator\ntitle: “Jeffrey Ketland Notes”"
+    "text": "title: “Jeffrey Ketland Notes”\nOpen Shiny Calculator",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Lecture Notes",
+    "section": "",
+    "text": "Add your content here…",
+    "crumbs": [
+      "Notes"
+    ]
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Add your content here…",
+    "crumbs": [
+      "Research"
+    ]
+  },
+  {
+    "objectID": "blogposts.html",
+    "href": "blogposts.html",
+    "title": "Blogposts",
+    "section": "",
+    "text": "Add your content here…",
+    "crumbs": [
+      "Blogposts"
+    ]
   },
   {
     "objectID": "about.html",
