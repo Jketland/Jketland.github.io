@@ -4,11 +4,19 @@ project:
     - calculator-live/
 
 website:
-  title: "Ketland_Notes"
-  navbar:
-    left:
+  title: "Ketland Notes"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
       - href: index.qmd
         text: Home
+      - href: notes.qmd
+        text: Notes
+      - href: research.qmd
+        text: Research
+      - href: blogposts.qmd
+        text: Blogposts
       - href: calculator.qmd
         text: Calculator
 
