@@ -1,11 +1,5 @@
----
-title: "Ketland_Notes"
----
+title: "Jeffrey Ketland Notes"
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+[Open Shiny Calculator](calculator.html)
 
-```{r}
-1 + 1
-```
