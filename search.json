@@ -1,22 +1,19 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Jeffrey Ketland",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "These are the webpages of Jeffrey Ketland. I am a retired Philosopher of Science.I retired in late 2025 as a Research Professor at the University of Warsaw. Prior to that, I have worked at the London School of Economics, and Universities of Nottingham, Cambridge, Leeds, Edinburgh, Munich and Oxford.My CV can be found by the link in the sidebar.",
-    "crumbs": [
-      "Home"
-    ]
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "notes.html",
-    "href": "notes.html",
-    "title": "Lecture Notes",
+    "objectID": "blogposts.html",
+    "href": "blogposts.html",
+    "title": "Blogposts",
     "section": "",
     "text": "Add your content here…",
     "crumbs": [
-      "Notes"
+      "Blogposts"
     ]
   },
   {
@@ -30,20 +27,33 @@
     ]
   },
   {
-    "objectID": "blogposts.html",
-    "href": "blogposts.html",
-    "title": "Blogposts",
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Lecture Notes",
     "section": "",
     "text": "Add your content here…",
     "crumbs": [
-      "Blogposts"
+      "Notes"
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jeffrey Ketland",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "These are the webpages of Jeffrey Ketland. I am a retired Philosopher of Science. I retired in late 2025 as a Research Professor at the University of Warsaw. Prior to that, I have worked at the London School of Economics, and the Universities of Nottingham, Cambridge, Leeds, Edinburgh, Munich and Oxford. My CV can be found by the link in the sidebar.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV - Jeffrey Ketland",
+    "section": "",
+    "text": "This is my CV. A pdf version can be found here.",
+    "crumbs": [
+      "CV"
+    ]
   }
 ]
