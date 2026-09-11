@@ -1,6 +1,9 @@
 [
   {
     "listing": "/Blog/blogposts.html",
-    "items": []
+    "items": [
+      "/Blog/posts/logical_consequence.html",
+      "/Blog/posts/Superior.html"
+    ]
   }
 ]

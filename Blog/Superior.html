@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-06-01">
 
 <title>The Superior Virtue of the Oppressed – Jeffrey Ketland</title>
 <style>
@@ -158,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../Blog/blogposts.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Blogposts</span></a>
+ <span class="menu-text">Blog</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -198,13 +199,23 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">The Superior Virtue of the Oppressed</h1>
-</div>
+  <div class="quarto-categories">
+    <div class="quarto-category">Politics</div>
+    <div class="quarto-category">Social Philosophy</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 1, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -313,7 +324,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/Jketland\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
