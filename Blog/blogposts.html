@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Publications – Jeffrey Ketland</title>
+<title>Blogposts – Jeffrey Ketland</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,6 +36,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -73,6 +75,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
@@ -116,7 +147,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Research/research.html">Research</a></li><li class="breadcrumb-item"><a href="../Research/publications.html">Publications</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Blog/blogposts.html">Blogposts</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -126,7 +157,7 @@ window.Quarto = {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
@@ -176,7 +207,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Research/publications.html" class="sidebar-item-text sidebar-link active">
+  <a href="../Research/publications.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Publications</span></a>
   </div>
 </li>
@@ -184,7 +215,7 @@ window.Quarto = {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Blog/blogposts.html" class="sidebar-item-text sidebar-link">
+  <a href="../Blog/blogposts.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Blogposts</span></a>
   </div>
 </li>
@@ -216,20 +247,20 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Research/research.html">Research</a></li><li class="breadcrumb-item"><a href="../Research/publications.html">Publications</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Publications</h1>
+<h1 class="title">Blogposts</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-body">
 
     
   
@@ -241,73 +272,23 @@ window.Quarto = {
 </header>
 
 
-<p><strong>Book</strong></p>
-<ul>
-<li><p><a href="https://www.cambridge.org/core/books/application-of-mathematics/A3F0C474FEDC91BFAF90741AB3AEB3ED">The Application of Mathematics: Entanglement and Instantiation.</a> Cambridge University Press, 2026.</p>
-<p>Description: Why is abstract mathematics applicable within science? Jeffrey Ketland describes the metatheory of the application of mathematics in science and highlights the ‘entanglement’ of physical systems with mathematical objects and structures. Applied Mathematics inferences are regimented into ‘canonical form’, involving an ambient foundational base theory and the specific physical premises and conclusions. These latter are formulated using concepts called ‘entanglers’, which relate physical objects and systems to mathematical objects. The simplest example is the membership predicate, ‘x is an element of y’, and other examples are coordinate functions, quantity functions (such as mass, length, or temporal duration), and fields (on space or spacetime). Mathematical terms denoting these, as well as impure sets, relations, and structures, are called ‘entanglement constants’. Ketland shows that such inferences satisfy a form of topic neutrality called Hilbert’s Beermug Principle, and all such inferences can be seen to be instantiations of general mathematical theorems with such constants.</p></li>
-</ul>
-<p><strong>Published articles</strong></p>
-<p><strong>Refereed Articles</strong></p>
-<ul>
-<li><p>2023: <strong>Axiomatization of Galilean Spacetime.</strong> <em>Dialectica</em>, 77 (2): 153–202.</p>
-<p>Description: Provides a second-order synthetic axiomatization <span class="math inline">\(\mathsf{Gal}(1,3)\)</span>$\mathsf{Gal}(1,3)$ for Galilean spacetime—the background spacetime of Newtonian classical mechanics—using primitive notions of betweenness, simultaneity, and hypersurface congruence.</p></li>
-<li><p>2022b: <strong>Standard Formalization.</strong> <em>Global Philosophy</em>, 32 (Suppl 3): 711–748.</p>
-<p>Description: Explores simple and elegant methods for constructing standard first-order formalizations of mathematicized scientific theories involving differential equations and scalar fields.</p></li>
-<li><p>2022a: <strong>Boolos’s Curious Inference in Isabelle/HOL.</strong> Archive of Formal Proofs (July 2022).</p>
-<p>Description: Formalizes George Boolos’s demonstration of the computational and deductive speed-up of higher-order logic over first-order logic, verifying fourteen constituent lemmas using Isabelle/HOL.</p></li>
-<li><p>2021b: <strong>Foundations of Applied Mathematics I</strong>. <em>Synthese</em> <strong>199</strong>: 4151–4193.</p></li>
-<li><p>2021a: <strong>Computation and Indispensability</strong>. <em>Logic and Logical Philosophy</em> <strong>30</strong> (1): 61–78.</p></li>
-<li><p>2020b: <strong>Bases for Structures and Theories II</strong>. <em>Logica Universalis</em> <strong>14</strong> (4): 461–479.</p></li>
-<li><p>2020a: <strong>Bases for Structures and Theories I</strong>. <em>Logica Universalis</em> <strong>14</strong> (3): 357–381.</p></li>
-<li><p>2016: <strong>Arithmetic with Fusions</strong> (with T. Schindler). <em>Logique et Analyse</em> <strong>234</strong>: 207–226.</p></li>
-<li><p>2013: <strong>There’s Glory for You!</strong> <em>Philosophy</em> <strong>89</strong>: 3–29.</p></li>
-<li><p>2012: <strong>Validity as a Primitive</strong>. <em>Analysis</em> <strong>72</strong>: 421–430.</p></li>
-<li><p>2011b: <strong>Nominalistic Adequacy</strong>. <em>Proceedings of the Aristotelian Society</em> <strong>111</strong>: 201–217.</p></li>
-<li><p>2011a: <strong>Identity and Indiscernibility</strong>. <em>The Review of Symbolic Logic</em> <strong>4</strong>: 171–185.</p></li>
-<li><p>2009a. <strong>Empirical Adequacy and Ramsification, II</strong>. In A. Heike &amp; H. Leitgeb (eds.) 2009. <em>Reduction–Abstraction–Analysis</em>, Proceedings of 31st International Wittgenstein Symposium (Kirchberg, Austria). Ontos Press.</p></li>
-<li><p>2007: <strong>A Comment on Bermúdez Concerning the Definability of Identity</strong>. <em>Analysis</em> <strong>67</strong>: 315–318.</p></li>
-<li><p>2006: <strong>Structuralism and the Identity of Indiscernibles</strong>. <em>Analysis</em> <strong>66</strong>: 303–315.</p></li>
-<li><p>2005c. <strong>Yablo’s Paradox and</strong> <span class="math inline">\(\omega\)</span>-<strong>Inconsistency</strong>. <em>Synthese</em> <strong>145</strong>: 295–307.</p></li>
-<li><p>2005b: <strong>Jacquette on Grelling’s Paradox</strong>. <em>Analysis</em> <strong>65</strong>: 258–260.</p></li>
-<li><p>2005a. <strong>Some More Curious Inferences</strong>. <em>Analysis</em> <strong>65</strong>: 18–24.</p></li>
-<li><p>2004b: <strong>Bueno and Colyvan on Yablo’s Paradox</strong>. <em>Analysis</em> <strong>64</strong>: 165–172.</p></li>
-<li><p>2004a: <strong>Empirical Adequacy and Ramsification</strong>. <em>BJPS</em> <strong>55</strong>: 287–300.</p></li>
-<li><p>2003b: <strong>On Wright’s Inductive Definition of Coherence Truth for Arithmetic</strong>. <em>Analysis</em> <strong>63</strong>: 6–15.</p></li>
-<li><p>2003a: <strong>Can a Many-Valued Language Functionally Represent its Own Semantics?</strong>. <em>Analysis</em> <strong>63</strong>: 292–297.</p></li>
-<li><p>2002b: <strong>Hume = Small Hume</strong>. <em>Analysis</em> <strong>62</strong>: 92–93.</p></li>
-<li><p>2002a: <strong>A Proof of the (Strengthened) Liar Formula in a Semantical Extension of Peano Arithmetic</strong>. <em>Analysis</em> <strong>60</strong>: 1–4.</p></li>
-<li><p>1999: <strong>Deflationism and Tarski’s Paradise</strong>. <em>Mind</em> <strong>108</strong>: 69–94.</p></li>
-</ul>
-<p><strong>Refereed Replies</strong></p>
-<ul>
-<li><p>2010: <strong>Truth, Conservativeness and Provability – Reply to Cieśliński</strong>. <em>Mind</em> <strong>120</strong>: 423–436.</p></li>
-<li><p>2009b: <strong>Deflationism and Beth’s Theorem – Reply to Bays</strong>. <em>Mind</em> <strong>118</strong>: 1075–1079.</p></li>
-<li><p>2005d: <strong>Deflationism and the Gödel Phenomena – Reply to Tennant</strong>. <em>Mind</em> <strong>114</strong>: 75–88.</p></li>
-</ul>
-<p><strong>Invited &amp; Encyclopaedia Articles</strong></p>
-<ul>
-<li><p>2009b: <strong>Truth</strong>, in John Shand (ed.) <em>The Central Issues in Philosophy</em>. Blackwell, 2009.</p></li>
-<li><p>2005f: <strong>Craig’s Theorem</strong>, in D. Borchert (ed.), <em>Macmillan Encyclopedia of Philosophy</em>.</p></li>
-<li><p>2005e: <strong>Second-Order Logic</strong>, in D. Borchert (ed.), <em>Macmillan Encyclopedia of Philosophy</em>.</p></li>
-</ul>
-<p><strong>Reviews</strong></p>
-<ul>
-<li><p>2020c: <strong>Review: C. Cieśliński, <em>The Lightness of Truth</em> (OUP, 2017)</strong>. <em>Studia Logica</em> <strong>108</strong> (1): 159–162.</p></li>
-<li><p>2005g: <strong>Review: P. Horwich, <em>From a Deflationary Point of View</em> (OUP, 2004)</strong>. <em>Notre Dame Philosophical Reviews</em>.</p></li>
-<li><p>2001: <strong>Review: S.G. Simpson (1999), <em>Subsystems of Second-Order Arithmetic</em> (Springer/ASL, 1998)</strong>. <em>BJPS</em> <strong>52</strong>: 191–195.</p></li>
-<li><p>2000: <strong>Review: G. Stokes, <em>Popper: Philosophy, Politics and Scientific Method</em> (Polity, 1998)</strong>. <em>BJPS</em> <strong>51</strong>: 363–369.</p></li>
-</ul>
-<p><strong>Unpublished articles</strong></p>
-<ul>
-<li><p>2023: <strong>Definitional Equivalence of Gal(1,3) and Gal_F(1,3)</strong>.</p></li>
-<li><p>2023: <strong>Length Abstraction in Euclidean Geometry.</strong>.</p>
-<p>Description: Defines abstract lengths in Euclidean geometry via an abstraction axiom, characterizing the length structure and its symmetry group alongside coordinate relationships.</p></li>
-<li><p>2022: <strong>Empirical Adequacy and Effect Completeness</strong>.</p></li>
-</ul>
+<p>My old Critica blog is here. My Substack is here. Newer posts are listed below.</p>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
