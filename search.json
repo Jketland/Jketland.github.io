@@ -14,27 +14,19 @@
     "href": "index.html",
     "title": "Jeffrey Ketland",
     "section": "",
-    "text": "These are the webpages of Jeffrey Ketland.\n\nEmail: jeffreyketland@gmail.com\n\nI am retired Philosopher of Science. I retired in late 2025 as a Research Professor at the University of Warsaw. Prior to that, I have worked at the London School of Economics, and Kings College London, and the Universities of Nottingham, Cambridge, Leeds, Edinburgh, Munich and Oxford.\nMy CV can be found via the link in the sidebar. The other links in the sidebar include:\n\nSome lecture notes that I have written over the years\nMy research & publications\nSome blogposts and links to an older blog and to Substack\nSome Shiny apps.",
+    "text": "These are the webpages of Jeffrey Ketland.\n\nEmail: jeffreyketland@gmail.com\n\nI retired in late 2025 as a Research Professor at the University of Warsaw. My research interest is Philosophy of Science. Prior to Wasrsaw, I have worked at the London School of Economics, and Kings College London, and the Universities of Nottingham, Cambridge, Leeds, Edinburgh, Munich and Oxford.\nMy CV can be found via the link in the sidebar. The other links in the sidebar include:\n\nSome lecture notes that I have written over the years\nMy research & publications\nSome blogposts and links to an older blog and to Substack\nSome Shiny apps.",
     "crumbs": [
       "Home"
     ]
   },
   {
-    "objectID": "posts/logical_consequence.html",
-    "href": "posts/logical_consequence.html",
-    "title": "On Logical Consequence",
+    "objectID": "blogposts.html",
+    "href": "blogposts.html",
+    "title": "Blogposts",
     "section": "",
-    "text": "Your post content goes here…"
-  },
-  {
-    "objectID": "Research/research.html",
-    "href": "Research/research.html",
-    "title": "Research",
-    "section": "",
-    "text": "My research lies in Philosophy of Science, broadly construed. I am particularly interested in:\n\nFormalization of scientific theories\nPhilosophy of applied mathematics\nTruth, paradoxes and axiomatic systems of truth\n\nBook\n\nThe Application of Mathematics: Entanglement and Instantiation. Cambridge University Press, 2026.\nDescription: Why is abstract mathematics applicable within science? Jeffrey Ketland describes the metatheory of the application of mathematics in science and highlights the ‘entanglement’ of physical systems with mathematical objects and structures. Applied Mathematics inferences are regimented into ‘canonical form’, involving an ambient foundational base theory and the specific physical premises and conclusions. These latter are formulated using concepts called ‘entanglers’, which relate physical objects and systems to mathematical objects. The simplest example is the membership predicate, ‘x is an element of y’, and other examples are coordinate functions, quantity functions (such as mass, length, or temporal duration), and fields (on space or spacetime). Mathematical terms denoting these, as well as impure sets, relations, and structures, are called ‘entanglement constants’. Ketland shows that such inferences satisfy a form of topic neutrality called Hilbert’s Beermug Principle, and all such inferences can be seen to be instantiations of general mathematical theorems with such constants.",
+    "text": "My old Critica blog is here. My Substack is here. Newer posts are listed below.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nOn Logical Consequence\n\n\n\nlogic\n\nphilosophy\n\n\n\n\n\n\n\n\n\nSep 11, 2026\n\n\n\n\n\nNo matching items",
     "crumbs": [
-      "Research",
-      "Overview"
+      "Blogposts"
     ]
   },
   {
@@ -49,13 +41,32 @@
     ]
   },
   {
-    "objectID": "blogposts.html",
-    "href": "blogposts.html",
-    "title": "Blogposts",
+    "objectID": "Research/research.html",
+    "href": "Research/research.html",
+    "title": "Research",
     "section": "",
-    "text": "My old Critica blog is here. My Substack is here. Newer posts are listed below.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nOn Logical Consequence\n\n\n\nlogic\n\nphilosophy\n\n\n\n\n\n\n\n\n\nSep 11, 2026\n\n\n\n\n\nNo matching items",
+    "text": "My research lies in Philosophy of Science, broadly construed. I am particularly interested in:\n\nFormalization of scientific theories\nPhilosophy of applied mathematics\nTruth, paradoxes and axiomatic systems of truth\n\nBook\n\nThe Application of Mathematics: Entanglement and Instantiation. Cambridge University Press, 2026.\nDescription: Why is abstract mathematics applicable within science? Jeffrey Ketland describes the metatheory of the application of mathematics in science and highlights the ‘entanglement’ of physical systems with mathematical objects and structures. Applied Mathematics inferences are regimented into ‘canonical form’, involving an ambient foundational base theory and the specific physical premises and conclusions. These latter are formulated using concepts called ‘entanglers’, which relate physical objects and systems to mathematical objects. The simplest example is the membership predicate, ‘x is an element of y’, and other examples are coordinate functions, quantity functions (such as mass, length, or temporal duration), and fields (on space or spacetime). Mathematical terms denoting these, as well as impure sets, relations, and structures, are called ‘entanglement constants’. Ketland shows that such inferences satisfy a form of topic neutrality called Hilbert’s Beermug Principle, and all such inferences can be seen to be instantiations of general mathematical theorems with such constants.",
     "crumbs": [
-      "Blogposts"
+      "Research",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "posts/logical_consequence.html",
+    "href": "posts/logical_consequence.html",
+    "title": "On Logical Consequence",
+    "section": "",
+    "text": "Your post content goes here…"
+  },
+  {
+    "objectID": "Axiomatica/axiomatica.html",
+    "href": "Axiomatica/axiomatica.html",
+    "title": "Axiomatica",
+    "section": "",
+    "text": "This is the base page for Axiomatica.",
+    "crumbs": [
+      "Axiomatica",
+      "Overview"
     ]
   },
   {
