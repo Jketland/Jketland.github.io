@@ -11,19 +11,9 @@
     "href": "blogposts.html",
     "title": "Blogposts",
     "section": "",
-    "text": "Add your content here…",
+    "text": "Add your content here…\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nOn Logical Consequence\n\n\n\nlogic\n\nphilosophy\n\n\n\n\n\n\n\n\n\nSep 11, 2026\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Blogposts"
-    ]
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "Add your content here…",
-    "crumbs": [
-      "Research"
     ]
   },
   {
@@ -37,11 +27,28 @@
     ]
   },
   {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research lies in Philosophy of Science, broadly construed. I am particularly interested in:\n\nFormalization of scientific theories\nPhilosophy of applied mathematics\nTruth, paradoxes and axiomatic systems of truth\n\nBook\n\nThe Application of Mathematics: Entanglement and Instantiation. Cambridge University Press, 2026.\nDescription: Why is abstract mathematics applicable within science? Jeffrey Ketland describes the metatheory of the application of mathematics in science and highlights the ‘entanglement’ of physical systems with mathematical objects and structures. Applied Mathematics inferences are regimented into ‘canonical form’, involving an ambient foundational base theory and the specific physical premises and conclusions. These latter are formulated using concepts called ‘entanglers’, which relate physical objects and systems to mathematical objects. The simplest example is the membership predicate, ‘x is an element of y’, and other examples are coordinate functions, quantity functions (such as mass, length, or temporal duration), and fields (on space or spacetime). Mathematical terms denoting these, as well as impure sets, relations, and structures, are called ‘entanglement constants’. Ketland shows that such inferences satisfy a form of topic neutrality called Hilbert’s Beermug Principle, and all such inferences can be seen to be instantiations of general mathematical theorems with such constants.\n\nPublished articles\n\nAxiomatization of Galilean Spacetime. Dialectica, 77 (2): 153–202, 2023.\nDescription: Provides a second-order synthetic axiomatization \\(\\mathsf{Gal}(1,3)\\) for Galilean spacetime—the background spacetime of Newtonian classical mechanics—using primitive notions of betweenness, simultaneity, and hypersurface congruence.\nLength Abstraction in Euclidean Geometry. Global Philosophy, 2023.\nDescription: Defines abstract lengths in Euclidean geometry via an abstraction axiom, characterizing the length structure and its symmetry group alongside coordinate relationships.\nStandard Formalization. Global Philosophy, 32 (Suppl 3): 711–748, 2022.\nDescription: Explores simple and elegant methods for constructing standard first-order formalizations of mathematicized scientific theories involving differential equations and scalar fields.\nBoolos’s Curious Inference in Isabelle/HOL. 2022.\nDescription: Formalizes George Boolos’s vivid demonstration of the computational and deductive speed-up of higher-order logic over first-order logic, verifying fourteen constituent lemmas using Isabelle/HOL.",
+    "crumbs": [
+      "Research"
+    ]
+  },
+  {
+    "objectID": "posts/logical_consequence.html",
+    "href": "posts/logical_consequence.html",
+    "title": "On Logical Consequence",
+    "section": "",
+    "text": "Your post content goes here…"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Jeffrey Ketland",
     "section": "",
-    "text": "These are the webpages of Jeffrey Ketland.\nI am retired Philosopher of Science. I retired in late 2025 as a Research Professor at the University of Warsaw. Prior to that, I have worked at the London School of Economics, and Kings College London, and the Universities of Nottingham, Cambridge, Leeds, Edinburgh, Munich and Oxford.\nMy CV can be found via the link in the sidebar. The other links in the sidebar include some Lecture Notes that I have written over the years, my Research & publications, blogposts and links to an older blog and to Substack, and some Shiny apps.",
+    "text": "These are the webpages of Jeffrey Ketland.\n\nEmail: jeffreyketland@gmail.com\n\nI am retired Philosopher of Science. I retired in late 2025 as a Research Professor at the University of Warsaw. Prior to that, I have worked at the London School of Economics, and Kings College London, and the Universities of Nottingham, Cambridge, Leeds, Edinburgh, Munich and Oxford.\nMy CV can be found via the link in the sidebar. The other links in the sidebar include:\n\nSome lecture notes that I have written over the years\nMy research & publications\nSome blogposts and links to an older blog and to Substack\nSome Shiny apps.",
     "crumbs": [
       "Home"
     ]
@@ -51,7 +58,7 @@
     "href": "cv.html",
     "title": "CV - Jeffrey Ketland",
     "section": "",
-    "text": "This is my CV. A pdf version can be found here.\nBorn: 20 March 1964, Birmingham, England\nEducation\n1975 – 1982: King Edwards Camp Hill School for Boys, Birmingham.\n1982 – 1985: Trinity College, Cambridge. BA Theoretical Physics.\n1985 – 1986: Trinity College, Cambridge. Part III Maths Tripos.\n1990 – 1992: University of Warwick. MA Philosophy.\n1994 – 1998: London School of Economics & Political Science. PhD Philosophy of Science.\nWork\n1991 – 1991: Teaching Assistant. University of Warwick.\n1996 – 1998: Temporary Lecturer. Richmond College.\n1996 – 1998: Teaching Assistant. LSE.\n1998 – 1999: Temporary Lecturer. LSE.\n2000 – 2001: Lecturer. University of Nottingham.\n2001 – 2002: Post-doctoral fellow. Kings College London.\n2002 – 2003: Temporary Lecturer. University of Leeds.\n2003 – 2004: Temporary Lecturer. University of Cambridge.\n2004 – 2011: Lecturer. University of Edinburgh.\n2011 – 2012: Lecturer. University of Munich.\n2012 – 2016: Associate Professor & Fellow. University of Oxford, Pembroke College.\n2019 – 2025: Research Professor. University of Warsaw.\n2025 – present: Retired.",
+    "text": "This is my CV. A PDF version can be found here.\nPersonal Details\n\nBorn: 20 March 1964, Birmingham, England.\nResidence: Liberton, Edinburgh, Scotland.\nEmail: jeffreyketland@gmail.com\nTwitter: @jeffreyketland\n\nEducation\n\n1975 – 1982: King Edwards Camp Hill School for Boys, Birmingham.\n1982 – 1985: Trinity College, Cambridge. BA Theoretical Physics.\n1985 – 1986: Trinity College, Cambridge. Part III Maths Tripos.\n1990 – 1992: University of Warwick. MA Philosophy.\n1994 – 1998: London School of Economics & Political Science. PhD Philosophy of Science.\n\nWork\n\n1991 – 1991: Teaching Assistant, University of Warwick.\n1996 – 1998: Temporary Lecturer, Richmond College.\n1996 – 1998: Teaching Assistant, LSE.\n1998 – 1999: Temporary Lecturer, LSE.\n2000 – 2001: Lecturer, University of Nottingham.\n2001 – 2002: Post-doctoral Fellow, King’s College London.\n2002 – 2003: Temporary Lecturer, University of Leeds.\n2003 – 2004: Temporary Lecturer, University of Cambridge.\n2004 – 2011: Lecturer, University of Edinburgh.\n2011 – 2012: Lecturer, University of Munich.\n2012 – 2016: Associate Professor & Fellow, University of Oxford, Pembroke College.\n2019 – 2025: Research Professor, University of Warsaw.\n2025 – present: Retired.",
     "crumbs": [
       "CV"
     ]
