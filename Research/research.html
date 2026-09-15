@@ -74,6 +74,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -233,7 +262,19 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Book</strong></p>
 <ul>
 <li><p><a href="https://www.cambridge.org/core/books/application-of-mathematics/A3F0C474FEDC91BFAF90741AB3AEB3ED">The Application of Mathematics: Entanglement and Instantiation.</a> Cambridge University Press, 2026.</p>
-<p>Description: Why is abstract mathematics applicable within science? Jeffrey Ketland describes the metatheory of the application of mathematics in science and highlights the ‘entanglement’ of physical systems with mathematical objects and structures. Applied Mathematics inferences are regimented into ‘canonical form’, involving an ambient foundational base theory and the specific physical premises and conclusions. These latter are formulated using concepts called ‘entanglers’, which relate physical objects and systems to mathematical objects. The simplest example is the membership predicate, ‘x is an element of y’, and other examples are coordinate functions, quantity functions (such as mass, length, or temporal duration), and fields (on space or spacetime). Mathematical terms denoting these, as well as impure sets, relations, and structures, are called ‘entanglement constants’. Ketland shows that such inferences satisfy a form of topic neutrality called Hilbert’s Beermug Principle, and all such inferences can be seen to be instantiations of general mathematical theorems with such constants.</p></li>
+<p>Description: Why is abstract mathematics applicable within science? Jeffrey Ketland describes the metatheory of the application of mathematics in science and highlights the ‘entanglement’ of physical systems with mathematical objects and structures. Applied mathematics inferences are regimented into ‘<strong>canonical form</strong>’,</p>
+<p><span class="math display">\[\overbrace{ \, \, \textsf{AM} \, \, }^{ \text{ambient base} } + \overbrace{ \, \, \Sigma  \, \, }^{ \text{scientific premises} } \vdash \overbrace{ \, \, \varphi \, \, }^{ \text{scientific conclusion}  }\]</span></p>
+<p>involving an ambient foundational base theory <span class="math inline">\(\textsf{AM}\)</span> and the specific physical premises <span class="math inline">\(\Sigma\)</span> and conclusions <span class="math inline">\(\varphi\)</span>. These latter are formulated using concepts called ‘entanglers’—that is `mixed’ predicates and function symbols—which relate physical objects and systems to mathematical objects. The simplest example is the membership predicate,</p>
+<p><span class="math display">\[x \in y\]</span></p>
+<p>Other examples are</p>
+<ul>
+<li>coordinate functions <span class="math inline">\(\Phi(p) = \{x^{\mu} \}\)</span>,</li>
+<li>quantity functions <span class="math inline">\(Q(a) = x\)</span> (such as mass, length, or temporal duration),</li>
+<li>and fields (on space or spacetime), <span class="math inline">\(\psi(p) = v\)</span>.</li>
+</ul>
+<p>Mathematical terms denoting these, as well as impure sets, relations, and structures, are called ‘<strong>entanglement constants</strong>’. Ketland shows that such inferences satisfy a form of topic neutrality called Hilbert’s Beermug Principle,</p>
+<p><span class="math display">\[\textsf{AM} \vdash \Sigma(P_1, \dots) \to \varphi(P_1, \dots) \text{ iff } \textsf{AM} \vdash \forall X_1, \dots [\Sigma(X_1, \dots) \to \varphi(X_1, \dots)].\]</span></p>
+<p>Then all such inferences—i.e., deriving a scientific conclusion <span class="math inline">\(\varphi(P_1, \dots)\)</span> from scientific premises <span class="math inline">\(\Sigma(P_1, \dots)\)</span>, using mathematics—can be seen to be <strong>instantiations</strong> of general mathematical theorems with such constants.</p></li>
 </ul>
 
 
