@@ -1,24 +1,40 @@
 project:
   type: website
   resources:
-    - calculator-live/
+    - Axiomatica/calculator-live/
+    - Axiomatica/derivative-live/
+    - Axiomatica/basic-live/
 
 website:
-  title: "Ketland Notes"
+  title: "Jeffrey Ketland"
   sidebar:
     style: "docked"
     search: true
     contents:
       - href: index.qmd
         text: Home
-      - href: notes.qmd
-        text: Notes
-      - href: research.qmd
-        text: Research
-      - href: blogposts.qmd
-        text: Blogposts
-      - href: calculator.qmd
-        text: Calculator
+      - href: CV/cv.qmd
+        text: CV
+      - href: Notes/notes.qmd
+        text: Lecture Notes
+      - section: "Research"
+        contents:
+          - href: Research/research.qmd
+            text: Overview
+          - href: Research/publications.qmd
+            text: Publications
+      - href: Blog/blogposts.qmd
+        text: Blog
+      - section: "Axiomatica"
+        contents:
+          - href: Axiomatica/axiomatica.qmd
+            text: Overview
+          - href: Axiomatica/calculator.qmd
+            text: Calculator
+          - href: Axiomatica/derivative.qmd
+            text: Derivative Calculator
+          - href: Axiomatica/basic.qmd
+            text: BASIC Emulator
 
 format:
   html:

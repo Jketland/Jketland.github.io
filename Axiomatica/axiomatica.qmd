@@ -1,0 +1,13 @@
+---
+title: "Axiomatica"
+format: html
+---
+
+This is the base page for Axiomatica, is a set of Shiny R apps, for computational mathematics.
+
+- **The R Programming Language**. [Wikipedia](https://en.wikipedia.org/wiki/R_(programming_language)). 
+
+- **Some R Resources**. 
+[R Project](https://www.r-project.org/). [CRAN](https://www.stats.bris.ac.uk/R/). [Hands-On Programming with R](https://rstudio-education.github.io/hopr/) (by Garrett Grolemund).
+
+- **How to use Shiny**. Online textbook Written by Hadley Wickham: [Mastering Shiny](https://mastering-shiny.org/index.html)

@@ -1,0 +1,36 @@
+---
+title: "Research"
+format: html
+---
+
+My research lies in Philosophy of Science, broadly construed. I am particularly interested in:
+
+- Formalization of scientific theories
+
+- Philosophy of applied mathematics
+
+- Truth, paradoxes and axiomatic systems of truth
+
+**Book**
+
+- *The Application of Mathematics: Entanglement and Instantiation*. Cambridge University Press, 2026. [CUP page here](https://www.cambridge.org/core/books/application-of-mathematics/A3F0C474FEDC91BFAF90741AB3AEB3ED). 
+
+  Description: Why is abstract mathematics applicable within science? Jeffrey Ketland describes the metatheory of the application of mathematics in science and highlights the 'entanglement' of physical systems with mathematical objects and structures. Applied mathematics inferences are regimented into '**canonical form**', 
+  
+  $$\overbrace{ \, \, \textsf{AM} \, \, }^{ \text{ambient base} } + \overbrace{ \, \, \Sigma  \, \, }^{ \text{scientific premises} } \vdash \overbrace{ \, \, \varphi \, \, }^{ \text{scientific conclusion}  }$$
+  
+  involving an ambient foundational base theory $\textsf{AM}$ and the specific physical premises $\Sigma$ and conclusions $\varphi$. These latter are formulated using concepts called 'entanglers'---that is `mixed' predicates and function symbols---which relate physical objects and systems to mathematical objects. The simplest example is the membership predicate, 
+  
+  $$x \in y$$
+  
+  Other examples are 
+ 
+  - coordinate functions $\Phi(p) = \{x^{\mu} \}$, 
+  - quantity functions $Q(a) = x$ (such as mass, length, or temporal duration), 
+  - and fields (on space or spacetime), $\psi(p) = v$. 
+ 
+  Mathematical terms denoting these, as well as impure sets, relations, and structures, are called '**entanglement constants**'. Ketland shows that such inferences satisfy a form of topic neutrality called Hilbert's Beermug Principle, 
+  
+  $$\textsf{AM} \vdash \Sigma(P_1, \dots) \to \varphi(P_1, \dots) \text{ iff } \textsf{AM} \vdash \forall X_1, \dots [\Sigma(X_1, \dots) \to \varphi(X_1, \dots)].$$
+  
+  Then all such inferences---i.e., deriving a scientific conclusion $\varphi(P_1, \dots)$ from scientific premises $\Sigma(P_1, \dots)$, using mathematics---can be seen to be **instantiations** of general mathematical theorems with such constants.
