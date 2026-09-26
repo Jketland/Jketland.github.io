@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Blog – Jeffrey Ketland</title>
+<title>Mereology and Second-Order Comprehension – Jeffrey Ketland</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,25 +29,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-1bdbca75b362e6c5a8c09207907ff998.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-1bdbca75b362e6c5a8c09207907ff998.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -75,35 +73,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
@@ -135,7 +104,7 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-sidebar docked quarto-light">
@@ -147,7 +116,9 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Blog/blogposts.html">Blog</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Jeffrey Ketland
+      </li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -157,12 +128,12 @@ window.Quarto = {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="../">Jeffrey Ketland</a> 
+      <a href="../../">Jeffrey Ketland</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -174,19 +145,19 @@ window.Quarto = {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../CV/cv.html" class="sidebar-item-text sidebar-link">
+  <a href="../../CV/cv.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">CV</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Notes/notes.html" class="sidebar-item-text sidebar-link">
+  <a href="../../Notes/notes.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lecture Notes</span></a>
   </div>
 </li>
@@ -201,13 +172,13 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Research/research.html" class="sidebar-item-text sidebar-link">
+  <a href="../../Research/research.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Research/publications.html" class="sidebar-item-text sidebar-link">
+  <a href="../../Research/publications.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Publications</span></a>
   </div>
 </li>
@@ -215,7 +186,7 @@ window.Quarto = {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Blog/blogposts.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../Blog/blogposts.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Blog</span></a>
   </div>
 </li>
@@ -230,25 +201,25 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Axiomatica/axiomatica.html" class="sidebar-item-text sidebar-link">
+  <a href="../../Axiomatica/axiomatica.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Axiomatica/calculator.html" class="sidebar-item-text sidebar-link">
+  <a href="../../Axiomatica/calculator.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Calculator</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Axiomatica/derivative.html" class="sidebar-item-text sidebar-link">
+  <a href="../../Axiomatica/derivative.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Derivative Calculator</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Axiomatica/basic.html" class="sidebar-item-text sidebar-link">
+  <a href="../../Axiomatica/basic.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">BASIC Emulator</span></a>
   </div>
 </li>
@@ -259,20 +230,20 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="aGlzdG9yeSUyMG9mJTIwcGhpbG9zb3BoeQ==">history of philosophy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UG9saXRpY3M=">Politics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U29jaWFsJTIwUGhpbG9zb3BoeQ==">Social Philosophy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dGhlJTIwcGhpbG9zb3BoeSUyMHByb2Zlc3Npb24=">the philosophy profession <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
+<h1 class="title">Mereology and Second-Order Comprehension</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-body">
+<div class="quarto-title-meta">
 
     
   
@@ -284,124 +255,42 @@ window.Quarto = {
 </header>
 
 
-<p>My old Critica blog is here. My Substack is here. Newer posts are listed below.</p>
+<p>I explain how classical extensional mereology (with unrestricted fusion) interprets second-order comprehension. I.e.,</p>
+<p><span class="math display">\[\exists X \, \forall x \, (x \in X \leftrightarrow \varphi(x))\]</span></p>
+<p>This material is explained in a lot more detail in the article:</p>
+<p>Ketland, J. &amp; Schindler, T. 2016. “Arithmetic with fusions”. Logique et Analyse.</p>
+<p>Definition 1: The theory of classical extensional mereology is denoted <span class="math inline">\(\textsf{CEM}\)</span>. The signature of <span class="math inline">\(\textsf{CEM}\)</span> is</p>
+<p><span class="math display">\[\sigma_{\textsf{CEM}} = \{\preceq\}.\]</span></p>
+<p>The new predicates <span class="math inline">\(\textsf{O}\)</span> and <span class="math inline">\(\textsf{At}\)</span> are explicitly defined as follows:</p>
+<p><span class="math display">\[\textsf{Df}_{\textsf{O}}: \qquad x \, \textsf{O} \, y \leftrightarrow \exists w \, (w \preceq x \wedge w \preceq y).\]</span></p>
+<p><span class="math display">\[\textsf{Df}_{\textsf{At}}: \qquad \textsf{At}(x) \leftrightarrow \forall z \, (z \preceq x \rightarrow z = x).\]</span></p>
+<p>The fusion formula for <span class="math inline">\(\varphi(x)\)</span> is given by:</p>
+<p><span class="math display">\[\textsf{Fus}_{\varphi(x)}(z): \qquad \forall x \, (\varphi(x) \rightarrow x \preceq z) \wedge (\forall y \preceq z) \, \exists x \, (\varphi(x) \wedge y \, \textsf{O} \, x)\]</span>.</p>
+<p>Finally, the axioms of <span class="math inline">\(\textsf{CEM}\)</span> are:</p>
+<p><span class="math display">\[(\textsf{Tran}): \qquad (x \preceq y \wedge y \preceq z) \to (x \preceq z).\]</span></p>
+<p><span class="math display">\[(\textsf{UF}): \qquad \exists x \phi(x) \to \exists ! z \ \textsf{Fus}_{\phi}(z).\]</span></p>
+<p><span class="math inline">\((\textsf{UF})\)</span> is an axiom scheme. We prove two lemmas. First, a simple result saying overlapping atoms are identical:</p>
+<p>Lemma 1: <span class="math inline">\(\textsf{Df}_{\textsf{O}}, \textsf{Df}_{\textsf{At}} \vdash \textsf{At}(x) \wedge \textsf{At}(y) \to (x\textsf{O}y \to x = y)\)</span>.</p>
+<p>Proof: Let <span class="math inline">\(\textsf{At}(x)\)</span>, <span class="math inline">\(\textsf{At}(y)\)</span> and <span class="math inline">\(x\textsf{O}y\)</span>. Hence, there is some <span class="math inline">\(w\)</span> such that <span class="math inline">\(w \preceq x\)</span> and <span class="math inline">\(w \preceq y\)</span>. Since <span class="math inline">\(\textsf{At}(x)\)</span>, we infer <span class="math inline">\(w = x\)</span>. Since <span class="math inline">\(\textsf{At}(y)\)</span>, we infer <span class="math inline">\(w = y\)</span>. So, <span class="math inline">\(x = y\)</span>.</p>
+<p>The formula <span class="math inline">\(\textsf{Fus}_{\textsf{At}(x) \wedge \varphi(x)}(z)\)</span> expresses that <span class="math inline">\(z\)</span> is a fusion of all atoms <span class="math inline">\(x\)</span> such that <span class="math inline">\(\varphi(x)\)</span>. Let <span class="math inline">\(\forall a \, \varphi(a)\)</span> stand for <span class="math inline">\(\forall x \,  (\textsf{At}(x) \to \phi(x))\)</span>.</p>
+<p>Define <span class="math inline">\(\textsf{Fus}^{\textsf{At}}_{\phi(x)}(z)\)</span> to mean <span class="math inline">\(\textsf{Fus}_{\textsf{At}(x) \wedge \phi(x)}(z)\)</span>.</p>
+<p>Second, a result showing that, with respect to atoms as “elements”, parthood simulates membership:</p>
+<p>Lemma 2: <span class="math inline">\(\textsf{Df}_{\textsf{O}}, \textsf{Df}_{\textsf{At}} \vdash \textsf{Fus}^{\textsf{At}}_{\phi(x)}(z) \to \forall a(a \preceq z \leftrightarrow \phi(a))\)</span>.</p>
+<p>Proof: Let us suppose <span class="math inline">\(\textsf{Fus}^{\textsf{At}}_{\phi(x)}(z)\)</span>:</p>
+<p><span class="math display">\[\forall a' \, (\varphi(a') \rightarrow a' \preceq z) \wedge (\forall y \preceq z) \, \exists a' \, (\varphi(a') \wedge y \, \textsf{O} \, a').\]</span></p>
+<p>First, suppose <span class="math inline">\(a \preceq z\)</span>. We claim <span class="math inline">\(\varphi(a)\)</span>. We have <span class="math inline">\((\forall y \preceq z) \, \exists a' \, (\varphi(a') \wedge y \, \textsf{O} \, a')\)</span>. So, since <span class="math inline">\(a \preceq z\)</span>, there is some atom <span class="math inline">\(a'\)</span> such that <span class="math inline">\(\varphi(a') \wedge a \, \textsf{O} \, a'\)</span>. Since <span class="math inline">\(a \, \textsf{O} \, a'\)</span>, we have <span class="math inline">\(a = a'\)</span>, and thus <span class="math inline">\(\varphi(a)\)</span>, as claimed.</p>
+<p>Second, suppose <span class="math inline">\(\varphi(a)\)</span>. We claim <span class="math inline">\(a \preceq z\)</span>. We have <span class="math inline">\(\forall a' \, (\varphi(a') \rightarrow a' \preceq z)\)</span>. And so <span class="math inline">\(\varphi(a) \to a \preceq z\)</span>. Thus, <span class="math inline">\(a \preceq z\)</span>, as claimed.</p>
+<p>Definition: We next define <span class="math inline">\(\in\)</span> so as to simulate membership:</p>
+<p><span class="math display">\[x \in z := (\textsf{At}(x) \wedge x \preceq z).\]</span></p>
+<p>It follows from this and the above two lemmas that:</p>
+<p><span class="math display">\[\textsf{Df}_{\textsf{O}}, \textsf{Df}_{\textsf{At}} \vdash \textsf{Fus}^{\textsf{At}}_{\varphi(x)}(z) \to \forall a \, (a \in z \leftrightarrow \varphi(a)).\]</span></p>
+<p>This means that we can think of <span class="math inline">\(\textsf{Fus}^{\textsf{At}}_{\phi(x)}(z)\)</span> as saying that “<span class="math inline">\(z\)</span> is the set of all atoms a such that <span class="math inline">\(\varphi(a)\)</span>”. Summarizing:</p>
+<p>Theorem. The theory <span class="math inline">\(\textsf{CEM}\)</span> interprets second-order comprehension (wrt atoms) for any formula <span class="math inline">\(\varphi(a)\)</span> under the condition that <span class="math inline">\(\exists a \, \varphi(a)\)</span>:</p>
+<p><span class="math display">\[\textsf{CEM} \vdash \exists a \, \varphi(a) \to \exists z \, \forall a \, (a \in z \leftrightarrow \varphi(a)).\]</span></p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1790381841140" data-listing-reading-time-sort="3" data-listing-word-count-sort="504">
-<div class="thumbnail"><a href="../Blog/posts/mereology.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../Blog/posts/mereology.html" class="no-external">Mereology and Second-Order Comprehension</a>
-</h3>
-<div class="delink listing-description"><a href="../Blog/posts/mereology.html" class="no-external">
-I explain how classical extensional mereology (with unrestricted fusion) interprets second-order comprehension. I.e.,
-</a></div>
-</div>
-<div class="metadata">
-<a href="../Blog/posts/mereology.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="dGhlJTIwcGhpbG9zb3BoeSUyMHByb2Zlc3Npb24=" data-listing-date-sort="1789945200000" data-listing-file-modified-sort="1790015889786" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="304">
-<div class="thumbnail"><a href="../Blog/posts/facts.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../Blog/posts/facts.html" class="no-external">Facts</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('dGhlJTIwcGhpbG9zb3BoeSUyMHByb2Zlc3Npb24='); return false;">the philosophy profession</div>
-
-</div>
-<div class="delink listing-description"><a href="../Blog/posts/facts.html" class="no-external">
-From November 2010 to June 2013, I was assaulted (twice), sexually harassed, barraged with messages, marriage proposals and threats, stalked (at multiple locations…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../Blog/posts/facts.html" class="no-external">
-<div class="listing-date">
-Sep 21, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="aGlzdG9yeSUyMG9mJTIwcGhpbG9zb3BoeQ==" data-listing-date-sort="1789945200000" data-listing-file-modified-sort="1790000792592" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="140">
-<div class="thumbnail"><a href="../Blog/posts/quinian.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../Blog/posts/quinian.html" class="no-external">Quinean or Quinian</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('aGlzdG9yeSUyMG9mJTIwcGhpbG9zb3BoeQ=='); return false;">history of philosophy</div>
-
-</div>
-<div class="delink listing-description"><a href="../Blog/posts/quinian.html" class="no-external">
-It’s standard to refer to something pertaining to W. V. Quine with the adjective “Quinean”. But there’s an objection, or at least a qualification, to this standard…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../Blog/posts/quinian.html" class="no-external">
-<div class="listing-date">
-Sep 21, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="UG9saXRpY3MlMkNTb2NpYWwlMjBQaGlsb3NvcGh5" data-listing-date-sort="1523401200000" data-listing-file-modified-sort="1790185932054" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1955">
-<div class="thumbnail"><a href="../Blog/posts/Superior.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../Blog/posts/Superior.html" class="no-external">The Superior Virtue of the Oppressed (Russell, 1937)</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UG9saXRpY3M='); return false;">Politics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U29jaWFsJTIwUGhpbG9zb3BoeQ=='); return false;">Social Philosophy</div>
-
-</div>
-<div class="delink listing-description"><a href="../Blog/posts/Superior.html" class="no-external">
-[This essay was published by Bertrand Russell in 1937 in <em>The Nation</em>, 144. It was republished in Russell’s <em>Unpopular Essays</em> (1950).]
-</a></div>
-</div>
-<div class="metadata">
-<a href="../Blog/posts/Superior.html" class="no-external">
-<div class="listing-date">
-Apr 11, 2018
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
